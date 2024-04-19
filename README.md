@@ -1,55 +1,26 @@
 # Avalanche-Subnets
+## Challenge: Building Your DeFi Empire
 
-## ERC20 Token and Vault Smart Contract
+Welcome to Avalanche Subnets, where you embark on a journey to build your own decentralized finance (DeFi) empire! In this tutorial, you'll learn how to set up your very own EVM subnet on Avalanche, laying the foundation for your DeFi Kingdom clone. We'll guide you through creating and deploying a custom subnet, along with essential smart contracts like ERC20 token contracts and Vault contracts. These steps will enable you to dive into the world of decentralized finance, taking your first strides towards constructing a thriving DeFi empire. Let's begin!
 
-## Overview
+## Getting Started
 
-This repository hosts two Solidity smart contracts: `ERC20.sol` and `vault.sol`. The `ERC20.sol` contract establishes a basic ERC-20 token, incorporating essential functions such as transfer, approve, mint, and burn. On the other hand, the `vault.sol` contract serves as a secure storage solution for the ERC-20 token, enabling users to deposit and withdraw tokens while managing the overall supply and individual balances.
+Before diving into the intricacies of DeFi, it's essential to set up your environment correctly. Here's a high-level overview of the steps you'll take:
 
-## Getting Started with Remix:
+1. **Set Up Your EVM Subnet**: Utilize our guide and the Avalanche documentation to create a custom EVM subnet on the Avalanche network.
 
-### Prerequisites:
+2. **Define Your Native Currency**: Establish your native currency, which will serve as the in-game currency for your DeFi Kingdom clone.
 
-1. Install Remix IDE on your web browser.
-2. Ensure compatibility with an Ethereum wallet (e.g., MetaMask) for interacting with contracts on the Ethereum blockchain.
+3. **Connect to Metamask**: Connect your EVM Subnet to MetaMask, facilitating seamless interaction with your deployed contracts. Follow the steps outlined in our guide for a smooth integration.
 
-### Steps:
+4. **Deploy Basic Building Blocks**: Utilize Solidity and Remix to deploy fundamental smart contracts for your game, including contracts for battling, exploring, and trading. These contracts will define essential game rules such as liquidity pools, tokens, and more.
 
-1. Open Remix IDE:
-   - Navigate your web browser to Remix IDE.
+## Note
 
-2. Import Contracts:
-   - Copy the contents of `ERC20.sol` and `vault.sol`.
-   - Within Remix, create new files named `ERC20.sol` and `vault.sol`.
-   - Paste the respective contents into each file.
+While it's crucial to understand the workings of DeFi and how to generate value for users, this tutorial focuses primarily on setting up an EVM subnet on Avalanche and deploying foundational smart contracts for building a DeFi Kingdom clone. For a deeper understanding of DeFi mechanics and user value generation, additional resources may be required.
 
-3. Compile Contracts:
-   - Within Remix, access the "Solidity" tab.
-   - Choose the appropriate version for the Solidity compiler (e.g., ^0.8.17).
-   - Click the "Compile" button to compile the contracts.
+## Support
 
-4. Deploy Token Contract:
-   - Switch to the "Deploy & Run Transactions" tab.
-   - Select `ERC20.sol` in the contract dropdown.
-   - Click the "Deploy" button to initiate the deployment of the ERC-20 token contract.
+If you encounter any issues or have questions throughout the process, feel free to reach out to our support team or refer to our comprehensive documentation for assistance.
 
-5. Copy Token Address:
-   - Upon deployment, copy the token contract address from the Remix console.
-
-6. Deploy Vault Contract:
-   - Choose `vault.sol` in the contract dropdown.
-   - Paste the ERC-20 token contract address into the constructor parameter for Vault.
-   - Click the "Deploy" button to deploy the vault contract.
-
-### Interact with Contracts:
-
-Once deployed, interact with the contracts through the provided functions:
-- Connect your EVM Subnet to Remix for transaction execution.
-
-## Authors
-
-- pras777
-
-## License:
-
-This project is licensed under the MIT License. Refer to the LICENSE file for details.
+Let's embark on this exciting journey together and build the DeFi empire of your dreams on Avalanche Subnets!
